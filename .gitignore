@@ -1,0 +1,18 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+# 编译与打包产生的本地目录（重要）
+build/
+dist/
+*.spec  # 视个人喜好决定，通常保留配置好的 spec，故这里不写 *.spec
+
+# 转换过程中的本地临时图片
+temp_pdf_page_*.jpg
+temp_page_*.png
